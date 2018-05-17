@@ -1,0 +1,22 @@
+{
+  "name": "crawler-proxy",
+  "version": "1.0.0",
+  "description": "A middleware for koa2 to handle crawler to visit a SPA page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "middleware"
+  ],
+  "author": "konglx",
+  "license": "MIT",
+  "devDependencies": {
+    "koa": "^2.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "crawler-user-agents": "git+https://github.com/monperrus/crawler-user-agents.git"
+  }
+}
