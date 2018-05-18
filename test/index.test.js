@@ -10,7 +10,7 @@ app.use(crawlerProxy({
 
 // response
 app.use(ctx => {
-  ctx.body = 'Hello Koa';
+  ctx.body = '<script>document.write("<div>hello ssr is ok</div>")</script>';
 });
 
 app.listen(3090);
