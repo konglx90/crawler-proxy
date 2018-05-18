@@ -4,7 +4,8 @@ const app = new Koa();
 const crawlerProxy = require('../src/index');
 
 app.use(crawlerProxy({
-    target: 'http://www.baidu.com'
+    target: 'http://127.0.0.1:3000/api/html',
+    payload: 'url',
 }));
 
 // response
@@ -12,4 +13,4 @@ app.use(ctx => {
   ctx.body = 'Hello Koa';
 });
 
-app.listen(3000);
+app.listen(3090);

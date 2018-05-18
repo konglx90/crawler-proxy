@@ -1,5 +1,5 @@
 {
-  "name": "crawler-proxy",
+  "name": "@konglx/crawler-proxy",
   "version": "1.0.0",
   "description": "A middleware for koa2 to handle crawler to visit a SPA page.",
   "main": "index.js",
